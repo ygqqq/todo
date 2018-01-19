@@ -12,6 +12,9 @@ export default new Router({
       path: '/:status',
       name: 'Main',
       component: Main
+    },{
+      path:"/",
+      redirect:"/All"
     }
   ]
 })

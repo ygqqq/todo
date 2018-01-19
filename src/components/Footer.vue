@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">  
         <span class="todo-count">  
-            <strong></strong>left                     
+            <strong></strong>{{count}} items left                     
         </span>  
         <ul class="filters">  
             <router-link to="/All" tag="li">All</router-link>
@@ -13,6 +13,11 @@
 </template>
 <script>
     export default {
-        name: "Footer"
+        name: "Footer",
+        computed:{
+            count(){
+                return this.$store.state.tasks.filter(t => t.status == 0).length
+            }
+        }
     }
 </script>
