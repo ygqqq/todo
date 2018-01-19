@@ -1,21 +1,15 @@
-# ygq-vue
+# todo-vue
 
-> A Vue.js project
+基于vuejs2.x版本的todo小栗子，项目虽小，五脏俱全，包括vue-router和vuex的一些基本应用，比较适合用来练习下vuejs
 
-## Build Setup
+## 配置启动
 
 ``` bash
-# install dependencies
+
 npm install
 
-# serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
